@@ -232,7 +232,6 @@ function isPrime(n) {
  */
 function toNumber(value, def) {
   return (!Number.isNaN(+value) ? +value : def);
-  // throw new Error('Not implemented');
 }
 
 module.exports = {
